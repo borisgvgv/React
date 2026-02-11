@@ -1,0 +1,30 @@
+.tw-followCard-article{
+    display: flex;
+    gap: 10px;
+    color:white;
+    justify-content: space-between;
+}
+.tw-followCard-header{
+    display: flex;
+    gap: 10px;
+}
+
+.tw-followCard-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+
+}
+
+.tw-followCard-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.tw-followCard-button{
+    padding: 1em 2em;
+    border-radius: 1000px;
+    background-color: white;
+    font-weight: bold;
+    
+}

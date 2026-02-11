@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    background-color: #222;
+    font-family: system-ui;
+    display: grid;
+    place-content:center;
+    min-height: 100vh;
+}
+
+.clase-App{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
