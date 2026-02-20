@@ -22,9 +22,23 @@
 }
 
 .tw-followCard-button{
+    cursor: pointer;
     padding: 1em 2em;
+    border: 0;
     border-radius: 1000px;
-    background-color: white;
+    background-color:aliceblue;
     font-weight: bold;
-    
+    transition: .3s ease background-color;
+}
+
+
+.tw-followCard-button:hover{
+    background-color: blue;
+    color:aliceblue;
+    transition: .3s ease background-color;
+}
+
+.tw-followCard-button.is-following:hover{
+    background-color: tomato;
+    color: aliceblue;
 }
